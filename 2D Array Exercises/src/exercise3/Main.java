@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
+		int grades[][] = new int[4][5];
 		Scanner sc = new Scanner(System.in);
+		grades = Functions.fillArray(grades, sc);
+		Functions.printArray(grades);
 		sc.close();
 	}
 }
