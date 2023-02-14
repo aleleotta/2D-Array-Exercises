@@ -1,11 +1,12 @@
 package exercise2;
 
-import java.util.Scanner;
+import exercise1.Functions;
 
 public class Main {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		sc.close();
+		int array2D[][] = new int[11][11];
+		array2D = exercise2.Functions.fillArray(array2D);
+		Functions.printArray(array2D);
 	}
 }
 /*
