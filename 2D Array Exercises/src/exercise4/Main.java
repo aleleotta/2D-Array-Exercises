@@ -1,11 +1,12 @@
 package exercise4;
-
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		sc.close();
+		int num[][] = new int[3][6];
+		num = Functions.setArray(num);
+		System.out.println("Array:");
+		Functions.printArray(num);
 	}
 }
 /*Define un array de números enteros de 3 filas por 6 columnas

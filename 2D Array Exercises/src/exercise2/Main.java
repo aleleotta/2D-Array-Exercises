@@ -1,5 +1,4 @@
 package exercise2;
-
 import exercise1.Functions;
 
 public class Main {
