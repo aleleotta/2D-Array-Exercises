@@ -1,11 +1,11 @@
 package exercise1;
-
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		sc.close();
+		int array2D[][] = new int[5][5];
+		array2D = Functions.fillArray(array2D);
+		Functions.printArray(array2D);
 	}
 }
 
